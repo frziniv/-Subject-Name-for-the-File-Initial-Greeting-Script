@@ -1,2 +1,9 @@
 # -Subject-Name-for-the-File-Initial-Greeting-Script
-This script, hello_github.py, contains a basic function to print a welcoming message. It serves as the very first functional file to be added to this new repository, establishing a foundation for future development and ensuring the repository is functional from the start.
+# Simple script to greet the world and GitHub.
+
+def greet():
+    message = "Hello, GitHub! This is my first file in the new repository."
+    print(message)
+
+if __name__ == "__main__":
+    greet()
